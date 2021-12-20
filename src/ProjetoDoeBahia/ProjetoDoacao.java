@@ -19,7 +19,7 @@ public  class  ProjetoDoacao
 	private String doador;      
 	private String receptor;  
 	private int opcao;
-	private double contador = 5300.00;
+	private double contador= 5300.00;
 		
 	public ProjetoDoacao ( String nomeCadastro, String idadeCadastro, String telCadastro, String cpfCadastro, String cityCadastro, String estadoCadastro, String ruaCadastro, String numCadastro, String cepCadastro, String doador, String receptor, int opcao, double contador)
 	{
@@ -86,8 +86,8 @@ public  class  ProjetoDoacao
 			System.out.println ("\t =============================================== ========================================================== \n\n");
 					
 			System.out.println("\n\t OLÁ, ESTAMOS FELIZES EM TE TER POR AQUI! \n");
-			System.out.println("\n\t Total já arrecadado R$:"+contador+"0 !"); 
-			System.out.println("\n\t Estes valores seram direcionados as pessoas em situação de vulnerabilidade devido as enchentes em toda bahia! \n");
+			//System.out.println("\n\t Total já arrecadado R$:"+contador+"0 !"); 
+			System.out.println("\n\t Estes valores seram direcionados as pessoas em situação de vulnerabilidade devido as enchentes no sul da bahia! \n");
 		
 			System.out.printf("\n\n\t Selecione a abaixo uma categora em que você se enquadre:");
 			System.out.println("\n\t ----------------------------------------------- --------");
