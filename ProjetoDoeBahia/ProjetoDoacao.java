@@ -19,7 +19,7 @@ public  class  ProjetoDoacao
 	private String doador;      
 	private String receptor;  
 	private int opcao;
-	private double contador;
+	private double contador = 530.00;
 		
 	public ProjetoDoacao ( String nomeCadastro, String idadeCadastro, String telCadastro, String cpfCadastro, String cityCadastro, String estadoCadastro, String ruaCadastro, String numCadastro, String cepCadastro, String doador, String receptor, int opcao, double contador)
 	{
